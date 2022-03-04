@@ -71,9 +71,7 @@ class TextLayerBuilder {
     this.renderingDone = true;
 
     if (!this.enhanceTextSelection) {
-      const endOfContent = document.createElement("div");
-      endOfContent.className = "endOfContent";
-      this.textLayerDiv.appendChild(endOfContent);
+      null
     }
 
     this.eventBus.dispatch("textlayerrendered", {

@@ -34,6 +34,10 @@ const US_PAGE_NAMES = {
 const METRIC_PAGE_NAMES = {
   "297x420": "A3",
   "210x297": "A4",
+  "841x1189": "A0",
+  "594x841": "A1",
+  "420x594": "A2",
+
 };
 
 function getPageName(size, isPortrait, pageNames) {
@@ -343,7 +347,7 @@ class PDFDocumentProperties {
       ),
       rawName &&
         this.l10n.get(
-          `document_properties_page_size_name_${rawName.toLowerCase()}`
+          `Folha em ${rawName}`
         ),
       this.l10n.get(
         `document_properties_page_size_orientation_${

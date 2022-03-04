@@ -186,6 +186,7 @@ function getViewerConfiguration() {
         version: document.getElementById("versionField"),
         pageCount: document.getElementById("pageCountField"),
         pageSize: document.getElementById("pageSizeField"),
+        
         linearized: document.getElementById("linearizedField"),
       },
     },
