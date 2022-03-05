@@ -323,8 +323,8 @@ class PDFDocumentProperties {
 
       // Try to avoid false positives, by only considering "small" differences.
       if (
-        Math.abs(exactMillimeters.width - intMillimeters.width) < 0.1 &&
-        Math.abs(exactMillimeters.height - intMillimeters.height) < 0.1
+        Math.abs(exactMillimeters.width - intMillimeters.width) < 0.9 &&
+        Math.abs(exactMillimeters.height - intMillimeters.height) < 0.9
       ) {
         rawName = getPageName(intMillimeters, isPortrait, METRIC_PAGE_NAMES);
         if (rawName) {
