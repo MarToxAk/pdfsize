@@ -29,6 +29,10 @@ const DEFAULT_L10N_STRINGS = {
   document_properties_page_size_orientation_landscape: "landscape",
   document_properties_page_size_name_a3: "A3",
   document_properties_page_size_name_a4: "A4",
+  document_properties_page_size_name_a1: "A1",
+  document_properties_page_size_name_a2: "A2",
+  document_properties_page_size_name_a0: "A0",
+  
   document_properties_page_size_name_letter: "Letter",
   document_properties_page_size_name_legal: "Legal",
   document_properties_page_size_dimension_string:
